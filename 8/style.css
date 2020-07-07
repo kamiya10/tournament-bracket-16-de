@@ -330,7 +330,7 @@ li.l {
 	}
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 5000px) {
 	.container {
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
