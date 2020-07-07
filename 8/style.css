@@ -7,7 +7,7 @@ body {
 }
 
 #bracket {
-	overflow: hidden;
+	overflow-x: auto;
 	background-color: #2c2f31;
 	padding-top: 20px;
 	font-size: 12px;
@@ -240,12 +240,18 @@ body {
 
 .w {
 	background-color: rgba(255, 255, 255, 0.825) !important;
+}
+
+li.w  {
 	color: #000000;
 }
 
 .l {
 	background-color: rgba(255, 255, 255, 0.1) !important;
-	color: #949494;
+}
+
+li.l {
+	color: #6e6e6e;
 }
 
 @media screen and (min-width: 981px) and (max-width: 1099px) {
