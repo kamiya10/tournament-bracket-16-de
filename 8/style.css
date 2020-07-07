@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
 body {
 	font-family: 'Istok Web', sans-serif;
 	background: #2c2f31;
@@ -5,6 +8,8 @@ body {
 	min-height: 100%;
 	margin: 0;
 }
+
+
 
 #bracket {
 	overflow-x: auto;
@@ -150,7 +155,7 @@ body {
 
 .round-details {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	color: #50c2ff;
 	text-transform: uppercase;
 	text-align: center;
@@ -165,7 +170,7 @@ body {
 	border-radius: 5%;
 	box-shadow	: none;
 	opacity: .8;
-	color: #aaa;
+	color: #eee;
 }
 
 ul.matchup {
@@ -232,7 +237,7 @@ ul.matchup {
 }
 
  li.w1,  li.w2,  li.w3,  li.w4,  li.w5,  li.w6,  li.w7,  li.w8,  li.w9,  li.w10,  li.w11,  li.w12,  li.w13,  li.w14,  li.w15,  li.w16 {
-	font-weight: bold;
+	font-weight: 700;
 	color: #fff;
 }
 
@@ -330,7 +335,7 @@ li.l {
 	}
 }
 
-@media screen and (max-width: 5000px) {
+@media screen and (max-width: 10000px) {
 	.container {
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
@@ -358,7 +363,7 @@ li.l {
 	}
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1000px) {
 	.split {
 		width: 95%;
 		margin: 25px 2.5%;
@@ -370,8 +375,5 @@ li.l {
 		-webkit-flex-grow: 1;
 		-moz-flex-grow: 1;
 		flex-grow: 1;
-	}
-	.round-details {
-		font-size: 90%;
 	}
 }
