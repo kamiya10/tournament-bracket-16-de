@@ -233,7 +233,7 @@ ul.matchup {
 	font-size: 10px;
 	letter-spacing: 2px;
 	font-family: 'Istok Web', sans-serif;
-	color: #3F915F;
+	color: #43ff8b;
 }
 
  li.w1,  li.w2,  li.w3,  li.w4,  li.w5,  li.w6,  li.w7,  li.w8,  li.w9,  li.w10,  li.w11,  li.w12,  li.w13,  li.w14,  li.w15,  li.w16 {
@@ -363,7 +363,8 @@ li.l {
 	}
 }
 
-@media screen and (max-width: 1000px) {
+/* Mobile Settings Here */
+@media screen and (max-width: 400px) {
 	.split {
 		width: 95%;
 		margin: 25px 2.5%;
@@ -375,5 +376,8 @@ li.l {
 		-webkit-flex-grow: 1;
 		-moz-flex-grow: 1;
 		flex-grow: 1;
+	}
+	.round-details {
+		font-size: 60%;
 	}
 }
