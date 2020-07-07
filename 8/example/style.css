@@ -313,6 +313,30 @@ li.l {
 	color: #6e6e6e;
 }
 
+.first {
+	color: #ffee00;
+	font-size: 200%;
+}
+
+.second {
+	color: #bbb;
+	font-size: 175%;
+}
+
+.third {
+	color: #bb7700;
+	font-size: 150%;
+}
+
+.forth, .fifth, .sixth, .seventh, .eighth {
+	color: #aaa;
+	font-size: 125%;
+}
+
+.final-result {
+	padding: 5px 15px;
+}
+
 @media screen and (min-width: 981px) and (max-width: 1099px) {
 	.container {
 		margin: 0 1%;
