@@ -390,10 +390,10 @@ li.l {
 }
 
 /* Mobile Settings Here */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 	.split {
-		width: 95%;
-		margin: 25px 2.5%;
+		width: 200%;
+		margin: -5px 2.5%;
 	}
 	.round {
 		width: 21%;
